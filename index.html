@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <form action="" method="get">
+            <h1 class="main_heading">Payment Form</h1>
+            <hr>
+            <h2>User Information</h3>
+
+            <label for="one">Name:</label>
+            <input type="text" name="name" id="one" placeholder="Name">
+
+
+            <p>Gender: &nbsp;
+                <input type="radio" name="gender" id="name">
+                <label for="male">Male</label>
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </p>
+
+            <label for="add">Address:</label>
+            <textarea name="address" id="add" placeholder="Enter the address"></textarea>
+
+            <p>
+                <label for="mail">E-mail:</label>
+                <input type="email" name="" id="mail">
+            </p>
+
+            <p>
+                Pincode:
+                <input type="number" name="pincode" id="code" placeholder="1111-2222-3333" required>
+            </p>
+
+            <h2>Payment Information</h2>
+
+
+            <p>Card Type:
+                <select name="card name" id="card_type" required>
+                    <option value="">~~Select Card~~</option>
+                    <option value="visa">Visa</option>
+                    <option value="mastercard">Master Card</option>
+                    <option value="rupay">Rupay</option>
+                    <option value="debitcard">Debit Card</option>
+                    <option value="creditcard">Credit Card</option>
+                </select>
+            </p>
+            
+            
+            <p>Expiration Date:
+                <input type="date" name="" id="" required>
+            </p>
+
+            <p>CVV
+                <input type="number" name="cvv" id="cvv" placeholder="123" required>
+            </p>
+            
+            <p>
+                <input type="submit" value="Pay Now">
+            </p>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>
